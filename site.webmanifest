@@ -1,0 +1,19 @@
+{
+  "name": "National Sports City",
+  "short_name": "NSC",
+  "icons": [
+    {
+      "src": "./Integrated Sports City — Professional Goal Company_files/icons/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./Integrated Sports City — Professional Goal Company_files/icons/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0A2240",
+  "background_color": "#0A2240",
+  "display": "standalone"
+}
