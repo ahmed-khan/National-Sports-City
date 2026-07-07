@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 875" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="ne" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0F3265"/>
+    <stop offset="100%" stop-color="#06182C"/>
+  </linearGradient>
+</defs>
+<rect width="1400" height="875" fill="url(#ne)"/>
+<!-- bookshelf shapes -->
+<g transform="translate(700,440)">
+  <!-- stack of books -->
+  <g transform="translate(-200,-30)">
+    <rect x="-80" y="0" width="160" height="40" fill="#C8A45C"/>
+    <rect x="-80" y="0" width="160" height="40" fill="none" stroke="#0A2240" stroke-width="2"/>
+    <rect x="-70" y="50" width="140" height="40" fill="#F7F8FA"/>
+    <rect x="-70" y="50" width="140" height="40" fill="none" stroke="#0A2240" stroke-width="2"/>
+    <rect x="-90" y="100" width="180" height="40" fill="#C8A45C" opacity="0.7"/>
+    <rect x="-90" y="100" width="180" height="40" fill="none" stroke="#0A2240" stroke-width="2"/>
+    <rect x="-75" y="150" width="150" height="40" fill="#F7F8FA" opacity="0.85"/>
+    <rect x="-75" y="150" width="150" height="40" fill="none" stroke="#0A2240" stroke-width="2"/>
+  </g>
+  <!-- graduation cap -->
+  <g transform="translate(200,40)">
+    <path d="M -100 0 L 0 -40 L 100 0 L 0 40 Z" fill="#0A2240" stroke="#C8A45C" stroke-width="2"/>
+    <rect x="-60" y="0" width="120" height="40" fill="#0A2240"/>
+    <path d="M 60 20 L 100 60 L 110 100 L 80 80 Z" fill="#C8A45C"/>
+    <circle cx="100" cy="100" r="10" fill="#C8A45C"/>
+  </g>
+</g>
+<!-- IB shield -->
+<g transform="translate(700,720)">
+  <path d="M -70 -40 L 0 -80 L 70 -40 L 70 30 Q 0 80 -70 30 Z" fill="#0A2240" stroke="#C8A45C" stroke-width="3"/>
+  <text x="0" y="14" font-family="Playfair Display, serif" font-style="italic" font-size="44" text-anchor="middle" fill="#C8A45C">IB</text>
+</g>
+<!-- pencil -->
+<g transform="translate(280,250) rotate(-30)">
+  <rect x="0" y="-8" width="180" height="16" fill="#C8A45C"/>
+  <polygon points="180,-8 220,0 180,8" fill="#F7F8FA"/>
+  <polygon points="210,-2 220,0 210,2" fill="#0A2240"/>
+  <rect x="0" y="-8" width="20" height="16" fill="#0A2240"/>
+</g>
+</svg>

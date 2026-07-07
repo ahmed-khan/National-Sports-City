@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="cs" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1B4E78"/>
+    <stop offset="100%" stop-color="#0A2240"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="800" fill="url(#cs)"/>
+<!-- track lines -->
+<g stroke="rgba(200,164,92,0.12)" stroke-width="2" fill="none">
+  <line x1="0" y1="600" x2="600" y2="600"/>
+  <line x1="0" y1="640" x2="600" y2="640"/>
+  <line x1="0" y1="680" x2="600" y2="680"/>
+  <line x1="0" y1="720" x2="600" y2="720"/>
+</g>
+<!-- runner mid-stride -->
+<g fill="#F7F8FA" transform="translate(300,420)">
+  <circle cx="0" cy="-200" r="55"/>
+  <!-- torso -->
+  <path d="M -45 -160 L 45 -160 L 70 -40 L 50 80 L -50 80 L -70 -40 Z"/>
+  <!-- raised arm forward -->
+  <path d="M 30 -150 L 180 -210 L 200 -180 L 80 -110 Z"/>
+  <!-- back arm -->
+  <path d="M -45 -150 L -180 -120 L -200 -90 L -60 -100 Z"/>
+  <!-- front leg raised -->
+  <path d="M 50 60 L 180 -10 L 210 30 L 80 130 Z"/>
+  <!-- back leg pushing -->
+  <path d="M -50 80 L -160 220 L -120 250 L -10 130 Z"/>
+</g>
+<!-- gold sash -->
+<path d="M 255 280 L 345 280 L 350 360 L 250 360 Z" fill="#C8A45C"/>
+<!-- speed lines -->
+<g stroke="#C8A45C" stroke-width="3" stroke-opacity="0.5" fill="none" stroke-linecap="round">
+  <line x1="50" y1="350" x2="180" y2="320"/>
+  <line x1="50" y1="400" x2="160" y2="380"/>
+  <line x1="50" y1="450" x2="170" y2="440"/>
+</g>
+</svg>

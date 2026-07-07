@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="csw" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1B6FA8"/>
+    <stop offset="100%" stop-color="#06335C"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="800" fill="url(#csw)"/>
+<!-- water lanes -->
+<g stroke="rgba(247,248,250,0.15)" stroke-width="1.5" fill="none">
+  <line x1="0" y1="200" x2="600" y2="200"/>
+  <line x1="0" y1="350" x2="600" y2="350"/>
+  <line x1="0" y1="500" x2="600" y2="500"/>
+  <line x1="0" y1="650" x2="600" y2="650"/>
+</g>
+<!-- water highlights -->
+<g fill="rgba(247,248,250,0.12)">
+  <ellipse cx="80" cy="250" rx="40" ry="3"/>
+  <ellipse cx="200" cy="320" rx="50" ry="3"/>
+  <ellipse cx="400" cy="420" rx="60" ry="3"/>
+  <ellipse cx="120" cy="570" rx="45" ry="3"/>
+  <ellipse cx="450" cy="700" rx="50" ry="3"/>
+</g>
+<!-- swimmer profile -->
+<g fill="#F7F8FA" transform="translate(300,400)">
+  <!-- swim cap -->
+  <path d="M -70 -80 Q -80 -130 -20 -150 Q 60 -150 80 -100 Q 80 -50 60 -40 L -50 -40 Q -75 -50 -70 -80 Z" fill="#0A2240"/>
+  <!-- gold cap stripe -->
+  <path d="M -75 -100 Q -10 -140 60 -110 L 60 -90 Q -10 -120 -75 -80 Z" fill="#C8A45C"/>
+  <!-- head profile -->
+  <path d="M -50 -40 L 60 -40 Q 80 -10 60 30 L -50 30 Z"/>
+  <!-- goggles -->
+  <ellipse cx="20" cy="-50" rx="22" ry="14" fill="#0A2240"/>
+  <ellipse cx="20" cy="-50" rx="12" ry="8" fill="#1B6FA8" opacity="0.6"/>
+  <!-- arm reaching -->
+  <path d="M -50 0 Q -150 50 -200 150 L -180 180 Q -100 100 -20 80 Z"/>
+</g>
+<!-- splash -->
+<g fill="#F7F8FA" opacity="0.7">
+  <circle cx="120" cy="540" r="6"/>
+  <circle cx="140" cy="520" r="4"/>
+  <circle cx="100" cy="510" r="3"/>
+</g>
+</svg>

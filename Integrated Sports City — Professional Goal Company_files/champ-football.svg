@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="cf" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0F3265"/>
+    <stop offset="100%" stop-color="#061528"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="800" fill="url(#cf)"/>
+<g fill="rgba(200,164,92,0.07)">
+  <circle cx="60" cy="60" r="2"/><circle cx="120" cy="100" r="2"/><circle cx="200" cy="40" r="2"/><circle cx="300" cy="120" r="2"/>
+  <circle cx="500" cy="80" r="2"/><circle cx="450" cy="150" r="2"/><circle cx="100" cy="200" r="2"/><circle cx="540" cy="220" r="2"/>
+</g>
+<!-- portrait silhouette: head + shoulders + ball -->
+<g fill="#F7F8FA">
+  <circle cx="300" cy="280" r="120"/>
+  <path d="M 130 760 Q 130 530 300 480 Q 470 530 470 760 Z"/>
+</g>
+<!-- jersey collar accent -->
+<path d="M 220 530 L 300 580 L 380 530 L 380 580 L 300 620 L 220 580 Z" fill="#C8A45C"/>
+<!-- jersey number -->
+<text x="300" y="700" font-family="Playfair Display, serif" font-size="120" font-style="italic" text-anchor="middle" fill="#0A2240" font-weight="700">10</text>
+<!-- shadow gradient under chin -->
+<ellipse cx="300" cy="420" rx="100" ry="20" fill="#0A2240" opacity="0.3"/>
+</svg>

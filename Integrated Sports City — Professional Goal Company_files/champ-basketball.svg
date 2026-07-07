@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="cb" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#3D2E5C"/>
+    <stop offset="100%" stop-color="#0A2240"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="800" fill="url(#cb)"/>
+<!-- backboard -->
+<g stroke="rgba(200,164,92,0.15)" stroke-width="2" fill="none">
+  <rect x="240" y="80" width="120" height="80"/>
+  <rect x="280" y="100" width="40" height="30"/>
+  <line x1="300" y1="160" x2="300" y2="220"/>
+  <ellipse cx="300" cy="240" rx="40" ry="14"/>
+</g>
+<!-- player dunking -->
+<g fill="#F7F8FA" transform="translate(300,540)">
+  <circle cx="0" cy="-200" r="55"/>
+  <!-- raised arm -->
+  <path d="M 0 -160 L 80 -300 L 110 -290 L 30 -130 Z"/>
+  <!-- torso -->
+  <path d="M -50 -160 L 60 -160 L 80 -40 L 60 60 L -60 60 L -80 -40 Z"/>
+  <!-- bent legs -->
+  <path d="M -60 40 L -100 200 L -60 230 L -20 70 Z"/>
+  <path d="M 60 40 L 90 180 L 120 220 L 60 110 Z"/>
+</g>
+<!-- ball -->
+<g transform="translate(380,260)">
+  <circle r="45" fill="#C8A45C"/>
+  <g stroke="#0A2240" fill="none" stroke-width="2">
+    <ellipse rx="45" ry="20"/>
+    <ellipse rx="20" ry="45"/>
+    <line x1="-45" y1="0" x2="45" y2="0"/>
+  </g>
+</g>
+</svg>

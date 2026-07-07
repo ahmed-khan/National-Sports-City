@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0F3265"/>
+    <stop offset="100%" stop-color="#0A2240"/>
+  </linearGradient>
+  <pattern id="d2" width="32" height="32" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="1" fill="rgba(247,248,250,0.08)"/>
+  </pattern>
+</defs>
+<rect width="1600" height="1080" fill="url(#bg2)"/>
+<rect width="1600" height="1080" fill="url(#d2)"/>
+<!-- runner -->
+<g fill="#F7F8FA" transform="translate(400,540)">
+  <circle cx="0" cy="-180" r="40"/>
+  <path d="M -30 -150 L 30 -130 L 50 -40 L 30 60 L -20 50 L -50 -50 Z"/>
+  <path d="M 40 -50 L 120 -130 L 140 -100 L 80 -20 Z"/>
+  <path d="M -40 -80 L -130 -130 L -150 -100 L -90 -40 Z"/>
+  <path d="M -10 60 L -40 200 L -10 240 L 30 220 L 30 60 Z"/>
+  <path d="M 30 40 L 130 160 L 170 130 L 80 0 Z"/>
+</g>
+<!-- basketball player -->
+<g fill="#F7F8FA" transform="translate(900,540)">
+  <circle cx="0" cy="-180" r="38"/>
+  <path d="M -30 -150 L 30 -150 L 50 -30 L 30 50 L -20 50 L -50 -30 Z"/>
+  <path d="M 30 -100 L 90 -200 L 110 -180 L 60 -80 Z"/>
+  <path d="M -10 50 L -40 200 L -10 240 L 20 230 L 20 50 Z"/>
+  <path d="M 30 50 L 90 180 L 60 220 L 20 100 Z"/>
+</g>
+<g transform="translate(990,360)">
+  <circle r="32" fill="#C8A45C"/>
+  <g stroke="#0A2240" fill="none" stroke-width="2">
+    <ellipse rx="32" ry="14"/>
+    <ellipse rx="14" ry="32"/>
+    <line x1="-32" y1="0" x2="32" y2="0"/>
+  </g>
+</g>
+<!-- swimmer -->
+<g fill="#F7F8FA" transform="translate(1280,560)">
+  <ellipse cx="0" cy="-30" rx="40" ry="20"/>
+  <circle cx="-30" cy="-50" r="20"/>
+  <path d="M 40 -30 L 200 -30 L 220 -10 L 40 -10 Z" opacity="0.85"/>
+</g>
+<g stroke="#C8A45C" fill="none" stroke-width="2" stroke-opacity="0.5">
+  <path d="M 1100 580 Q 1140 540 1180 580 T 1260 580" stroke-dasharray="4 4"/>
+  <path d="M 1100 610 Q 1140 570 1180 610 T 1260 610" stroke-dasharray="4 4"/>
+</g>
+<!-- divider line accent -->
+<g stroke="#C8A45C" stroke-opacity="0.4" stroke-width="1.5">
+  <line x1="200" y1="900" x2="1400" y2="900"/>
+</g>
+<!-- text labels -->
+<g font-family="Inter, sans-serif" font-size="14" letter-spacing="3" fill="#C8A45C" text-anchor="middle" font-weight="600">
+  <text x="400" y="940">ATHLETICS</text>
+  <text x="900" y="940">BASKETBALL</text>
+  <text x="1280" y="940">SWIMMING</text>
+</g>
+</svg>

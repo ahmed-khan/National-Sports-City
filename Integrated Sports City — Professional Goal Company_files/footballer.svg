@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0A2240"/>
+    <stop offset="100%" stop-color="#061528"/>
+  </linearGradient>
+  <radialGradient id="spot" cx="0.4" cy="0.45" r="0.7">
+    <stop offset="0%" stop-color="#C8A45C" stop-opacity="0.4"/>
+    <stop offset="60%" stop-color="#C8A45C" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#C8A45C" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="d" width="32" height="32" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="1" fill="rgba(200,164,92,0.16)"/>
+  </pattern>
+</defs>
+<rect width="1600" height="1080" fill="url(#bg)"/>
+<rect width="1600" height="1080" fill="url(#d)"/>
+<ellipse cx="640" cy="500" rx="700" ry="500" fill="url(#spot)"/>
+<g stroke="#C8A45C" stroke-opacity="0.18" fill="none" stroke-width="1.5">
+  <line x1="0" y1="900" x2="1600" y2="900"/>
+  <line x1="0" y1="940" x2="1600" y2="940"/>
+</g>
+<!-- footballer silhouette mid-kick -->
+<g fill="#F7F8FA">
+  <!-- body/torso -->
+  <path d="M 720 320 Q 740 280 780 290 L 820 320 L 840 420 L 820 540 L 800 640 L 740 720 L 700 700 L 700 600 L 680 480 Z" />
+  <!-- head -->
+  <circle cx="760" cy="240" r="50"/>
+  <!-- raised kicking leg -->
+  <path d="M 800 640 Q 920 660 1020 600 L 1080 540 L 1100 580 L 1020 660 Q 920 720 800 700 Z"/>
+  <!-- standing leg -->
+  <path d="M 700 700 L 720 880 L 760 940 L 720 960 L 670 880 L 680 700 Z"/>
+  <!-- raised arm -->
+  <path d="M 780 350 Q 880 300 940 220 L 980 240 L 920 320 Q 860 380 800 400 Z"/>
+  <!-- other arm -->
+  <path d="M 720 380 Q 660 440 640 540 L 600 540 L 620 460 Q 640 400 700 360 Z"/>
+</g>
+<!-- shorts highlight -->
+<path d="M 700 540 L 820 540 L 800 660 L 700 660 Z" fill="#C8A45C"/>
+<!-- ball -->
+<g transform="translate(1100,560)">
+  <circle r="56" fill="#F7F8FA"/>
+  <g fill="#0A2240">
+    <polygon points="0,-44 25,-15 14,22 -14,22 -25,-15"/>
+    <polygon points="0,-44 25,-15 44,-22 38,-38" opacity="0.6"/>
+    <polygon points="14,22 38,30 30,42 12,42" opacity="0.6"/>
+    <polygon points="-14,22 -12,42 -30,42 -38,30" opacity="0.6"/>
+    <polygon points="-25,-15 -44,-22 -38,-38 -25,-30" opacity="0.6"/>
+    <polygon points="0,-44 -25,-30 -38,-38 -22,-44" opacity="0.4"/>
+  </g>
+  <ellipse cx="-15" cy="-15" rx="22" ry="14" fill="white" opacity="0.5"/>
+</g>
+<!-- motion lines -->
+<g stroke="#C8A45C" stroke-width="3" stroke-opacity="0.55" fill="none" stroke-linecap="round">
+  <line x1="1180" y1="540" x2="1280" y2="500"/>
+  <line x1="1180" y1="580" x2="1300" y2="580"/>
+  <line x1="1180" y1="620" x2="1280" y2="660"/>
+</g>
+</svg>

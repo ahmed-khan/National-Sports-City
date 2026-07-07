@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0A2240"/>
+    <stop offset="100%" stop-color="#06182C"/>
+  </linearGradient>
+  <radialGradient id="spot3" cx="0.5" cy="0.4" r="0.5">
+    <stop offset="0%" stop-color="#C8A45C" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#C8A45C" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1600" height="1080" fill="url(#bg3)"/>
+<ellipse cx="800" cy="450" rx="700" ry="500" fill="url(#spot3)"/>
+<!-- columns of a hall -->
+<g stroke="#C8A45C" stroke-opacity="0.45" stroke-width="2" fill="none">
+  <line x1="200" y1="200" x2="200" y2="900"/>
+  <line x1="500" y1="200" x2="500" y2="900"/>
+  <line x1="1100" y1="200" x2="1100" y2="900"/>
+  <line x1="1400" y1="200" x2="1400" y2="900"/>
+  <line x1="100" y1="200" x2="1500" y2="200"/>
+  <line x1="100" y1="900" x2="1500" y2="900"/>
+</g>
+<!-- center grad silhouette -->
+<g fill="#F7F8FA" transform="translate(800,520)">
+  <circle cx="0" cy="-80" r="55"/>
+  <!-- mortarboard -->
+  <rect x="-90" y="-150" width="180" height="14" fill="#0A2240"/>
+  <rect x="-90" y="-150" width="180" height="14" fill="#C8A45C" opacity="0.9"/>
+  <rect x="-15" y="-150" width="14" height="-30" fill="#0A2240"/>
+  <circle cx="-2" cy="-180" r="8" fill="#C8A45C"/>
+  <!-- gown -->
+  <path d="M -80 -20 Q -90 80 -120 240 L 120 240 Q 90 80 80 -20 L 60 -40 L -60 -40 Z"/>
+</g>
+<!-- floating books/diplomas -->
+<g fill="#C8A45C" opacity="0.85">
+  <rect x="350" y="600" width="130" height="20" transform="rotate(-8 415 610)"/>
+  <rect x="350" y="630" width="130" height="20" transform="rotate(-8 415 640)" fill="#F7F8FA"/>
+  <rect x="350" y="660" width="130" height="20" transform="rotate(-8 415 670)" opacity="0.6"/>
+</g>
+<g fill="#C8A45C" opacity="0.85">
+  <rect x="1150" y="580" width="130" height="20" transform="rotate(7 1215 590)"/>
+  <rect x="1150" y="610" width="130" height="20" transform="rotate(7 1215 620)" fill="#F7F8FA"/>
+  <rect x="1150" y="640" width="130" height="20" transform="rotate(7 1215 650)" opacity="0.6"/>
+</g>
+<!-- shield/crest -->
+<g transform="translate(800,830)" fill="none" stroke="#C8A45C" stroke-width="2.5">
+  <path d="M -50 0 L 0 -60 L 50 0 L 50 50 Q 0 90 -50 50 Z" fill="#0A2240"/>
+  <text y="20" font-family="Playfair Display, serif" font-style="italic" font-size="32" text-anchor="middle" fill="#C8A45C" stroke="none">IB</text>
+</g>
+</svg>
